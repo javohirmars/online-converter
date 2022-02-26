@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="converter">
+        <div class="converter__box container">
+            <form class="converter__form" action="https://echo.htmlacademy.ru/" method="post">
+                <div class="converter__box-top">
+                    <input class="converter__form-input" type="number" name="user_input" required>
+                    <select class="converter__form-select" name="converter__form-select" name="type" id="form-select">
+                        <option value="usd">USD</option>
+                        <option value="euro">EURO</option>
+                        <option value="rubl">RUBL</option>
+                    </select>
+                </div>
+
+                <button class="converter__form-button" type="submit">CONVERT</button>
+
+                <div class="result"></div>
+            </form>
+        </div>
+    </section>
+
+    <script src="./js/main.js"></script>    
+</body>
+</html>
